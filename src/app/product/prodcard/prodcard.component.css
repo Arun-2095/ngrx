@@ -1,0 +1,13 @@
+.card {
+    width:150px;
+    min-height: 100px;
+    text-align: center;
+    margin:1em;
+    padding:.5em;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}

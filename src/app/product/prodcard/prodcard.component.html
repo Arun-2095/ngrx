@@ -1,0 +1,10 @@
+<ul>
+    <li *ngFor="let datam of source" >
+        <div  #card class="card">
+            <h5> {{datam. productName}}</h5>
+            <p> {{datam.price}}</p>
+            <button (click)="addToCart(card)" class="btn btn-outline-dark"> Add to Cart </button>
+        </div>
+       
+    </li>
+</ul>
