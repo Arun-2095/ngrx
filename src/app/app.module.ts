@@ -10,6 +10,7 @@ import { IndexComponent } from './index/index.component';
 import { StoreModule } from '@ngrx/store';
 
 import { Reducer } from './store/index';
+import { ProductModule } from './product/product.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +21,8 @@ import { Reducer } from './store/index';
     SharedModule,
     CoreModule,
     AppRoutingModule,
-    StoreModule.forRoot(Reducer)
+    ProductModule,
+    StoreModule.forRoot( Reducer )
   ],
   providers: [],
   bootstrap: [AppComponent]
